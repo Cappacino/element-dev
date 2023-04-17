@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element Fleet | Fleet Management Company</title>
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- End Favicon Icon-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Mario Cappa's Portfolio">
+    <link rel="stylesheet" type="text/css" href="styles/element-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c42bc772e7.js" crossorigin="anonymous"></script>
+    <script src="/scripts/jquery/jquery.js" type="text/javascript"></script>
+    <script src="/scripts/jquery/bootstrap.min.js" type="text/javascript"></script>
+</head>
+    <body class="element-body">
+        <!-- Top Blue Alert Bar -->
+        <section class="alert-banner">
+            <div class="container">
+                <div class="content">
+                    <p>Join us for our upcoming webinars on Remarketing and Electrification Strategies <a class="underlined" href="https://www.elementfleet.com/news/events#webinars">Register</a></p>
+                </div>
+            </div>
+        </section> 
+        <!-- End Top Blue Alert Bar -->
+
+        <!-- Start Above Main Nav Section -->
+        <div class="desktop">
+            <div class="container">
+                <nav class="uk-navbar-container uk-navbar-transparent element-navigation element-above-nav" uk-navbar>
+                    <div class="uk-navbar-right">
+                        <ul id="navigation" class="uk-navbar-nav">
+                            <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>Search</a></li>
+                            <li><a href=""><i class="fa-solid fa-location-dot"></i>Region & language <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-user"></i>Login & tools <i class="fa-solid fa-angle-down"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- End Above Main Nav Section -->
+
+            <!-- Start Main Nav -->
+            <div class="container">
+                <nav class="uk-navbar-container uk-navbar-transparent element-navigation" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <img style="width: 55%;" src="images/element-logo.svg" />
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right element-right-side">
+                        <ul id="navigation" class="uk-navbar-nav">
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Solutions</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="">News and events</a></li>
+                            <li><a href="">Investor relations</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                        <a class="element-contact-btn" href="">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- End Main Nav-->   
+
+        <!-- Start Mobile Nav -->
+        <div class="mobile">
+            <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-overlay"></a>
+            <img class="mobile-logo" src="images/element-logo.svg" />
+            <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar">
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    <img src="images/element-logo.svg" />
+                    <ul id="navigation" class="uk-navbar-nav">
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Solutions</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">News and events</a></li>
+                        <li><a href="">Investor relations</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                    <ul id="navigation" class="uk-navbar-nav">
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>Search</a></li>
+                        <li><a href=""><i class="fa-solid fa-location-dot"></i>Region & language <i class="fa-solid fa-angle-down"></i></a>
+                        </li>
+                        <li><a href=""><i class="fa-solid fa-user"></i>Login & tools <i class="fa-solid fa-angle-down"></i></a></li>
+                    </ul>
+                    <a class="element-contact-btn-mobile" href="">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Mobile Nav -->
+
+        <div class="element-fleet-display animate__animated animate__fadeIn">
+            <div class="container">
+                <div id="element-car-list" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/ford350.png" alt="Ford F-350">
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2023</h2>
+                                    <h3>Ford E-Transit-350</h3>
+                                    <div class="info-btn">
+                                        <a href="#e350" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/fordf150.png" alt="Ford F-150">       
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2023</h2>
+                                    <h3>Ford F-150 XL</h3>
+                                    <div class="info-btn">
+                                        <a href="#f150" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/audi.png" alt="Audi RS">
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2023</h2>
+                                    <h3>Audi RS 6 Avant</h3>
+                                    <div class="info-btn">
+                                        <a href="#audi" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/acura.png" alt="Acura RDX">
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2023</h2>
+                                    <h3>Acura RDX Base</h3>
+                                    <div class="info-btn">
+                                        <a href="#acura" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/bmw.png" alt="BMW iX">
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2024</h2>
+                                    <h3>BMW iX xDrive50</h3>
+                                    <div class="info-btn">
+                                        <a href="#bmw" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="d-block" src="images/tesla.png" alt="Model S">
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>2023</h2>
+                                    <h3>Tesla Model S Plaid</h3>
+                                    <div class="info-btn">
+                                        <a href="#tesla" class="element-info-btn">More Information</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#element-car-list" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#element-car-list" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <article class="element-under-carousel">
+            <div class="container">
+                <h1><span class="element-img-span"></span>Our Fleet</h1>
+                <p class="secondary-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis tristique imperdiet. Donec lectus turpis, feugiat
+                    eget tellus con, tis consequat fermentum orci. Maecenas mi metus, ultrices non magna at, pellentesque porta erat.
+                </p>
+            
+                <div class="all-fleet">
+                    <div class="container">
+                        <!-- Start First Row -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="e350" class="card reveal">
+                                    <img class="card-img-top" src="images/ford350.jpg" alt="ford e350">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2023 Ford E-Transit 350</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$57,665</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Electric <i class="fa-solid fa-bolt"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 68KW Electric Motor <br>w/1 Speed Automatic</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="f150" class="card reveal">
+                                    <img class="card-img-top" src="images/fordf150.jpg" alt="ford f150">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2023 Ford F-150 XL</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$42,489</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Combustion <i class="fa-solid fa-fire-flame-curved"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 3.5L V-6 4WD Regular Cab 141.0"WB 8'Box 17"Whls Specs</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End First Row -->
+
+                        <!-- Start Second Row -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="audi" class="card reveal">
+                                    <img class="card-img-top" src="images/audi.jpg" alt="audi">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2023 Audi RS 6 Avant</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$115,682</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Combustion <i class="fa-solid fa-fire-flame-curved"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 4.0L 8 Cyl. w/8 Speed Automatic</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="acura" class="card reveal">
+                                    <img class="card-img-top" src="images/acura.jpg" alt="acura">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2023 Acura RDX Base</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$41,711</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Combustion <i class="fa-solid fa-fire-flame-curved"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 2.0L 4 Cyl. w/10 Speed Automatic</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Second Row -->
+
+                        <!-- Start Third Row -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="bmw" class="card reveal">
+                                    <img class="card-img-top" src="images/bmw.jpg" alt="bmw">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2024 BMW iX xDrive50</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$82,500</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Electric <i class="fa-solid fa-bolt"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 112KW Electric Motor w/1 Speed Automatic</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="tesla" class="card reveal">
+                                    <img class="card-img-top" src="images/tesla.jpg" alt="tesla">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <div class="row name-price">
+                                                <div class="col-md-8">
+                                                    <h4>2023 Tesla Model S Plaid</h4>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5>$106,380</h5>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><strong>Engine Type:</strong> Electric <i class="fa-solid fa-bolt"></i></p>
+                                                    <p><strong>Engine Detail: </strong> 100KW Electric Motor w/1 Speed Automatic</p>
+                                                    <a class="element-check-btn">Check Availability</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Third Row -->
+
+                    </div>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>
+
+<script>
+    $('.carousel').carousel({
+        interval: 4000,
+        pause: false
+    })
+
+            function reveal() {
+                var reveals = document.querySelectorAll(".reveal");
+
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var elementTop = reveals[i].getBoundingClientRect().top;
+                    var elementVisible = 200;
+
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveals[i].classList.add("active");
+                    } else {
+                        reveals[i].classList.remove("active");
+                    }
+                }
+            }
+        window.addEventListener("scroll", reveal);
+</script>
